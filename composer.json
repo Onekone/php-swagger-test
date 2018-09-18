@@ -1,5 +1,5 @@
 {
-  "name": "byjg/swagger-test",
+  "name": "onekone/swagger-test",
   "description": "A set of tools for test your REST calls based on the swagger documentation using PHPUnit",
   "minimum-stability": "dev",
   "prefer-stable": true,

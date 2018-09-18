@@ -36,7 +36,7 @@ abstract class SwaggerBody
      * @param array $structure
      * @param bool $allowNullValues
      */
-    public function __construct(SwaggerSchema $swaggerSchema, $name, $structure, $allowNullValues = false)
+    public function __construct(SwaggerSchema $swaggerSchema, $name, $structure, $allowNullValues = true)
     {
         $this->swaggerSchema = $swaggerSchema;
         $this->name = $name;

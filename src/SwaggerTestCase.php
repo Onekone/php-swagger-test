@@ -23,7 +23,7 @@ abstract class SwaggerTestCase extends TestCase
             throw new GenericSwaggerException('You have to define the property $filePath');
         }
 
-        $this->swaggerSchema = new SwaggerSchema(file_get_contents($this->filePath));
+        $this->swaggerSchema = new SwaggerSchema(file_get_contents($this->filePath),true);
     }
 
     /**
